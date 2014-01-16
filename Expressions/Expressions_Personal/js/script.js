@@ -11,4 +11,6 @@ var coats= prompt ("How many coats will you be paint your wall?")
 //getting sqft from height * width
 var sqft=height*length;
 //console.log(sqft)
-//
+//sqft times number of coats to get total sqft 
+var totalSqft=sqft * coats
+console.log(totalSqft)
