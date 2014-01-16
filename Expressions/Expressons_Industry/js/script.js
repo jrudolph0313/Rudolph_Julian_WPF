@@ -36,6 +36,8 @@ var profitKeg=profit * numKeg;
 //console.log(profitKeg);
 //putting it all together
 console.log("There are "+(numCups)+" cups in "+(numKeg)+(" kegs(s). If one mug cost $"+(mugPrice)+" "+"your store will sell $"+(totalCups)+" "+"per keg, bringing $"+(profitKeg)+" "+"of profit! Ka-ching!"));
+//add alert, just for fun
+alert("There are "+(numCups)+" cups in "+(numKeg)+(" kegs(s). If one mug cost $"+(mugPrice)+" "+"your store will sell $"+(totalCups)+" "+"per keg, bringing $"+(profitKeg)+" "+"of profit! Ka-ching!"));
 
 
 
