@@ -14,5 +14,12 @@ var numKeg=prompt("How many kegs are available?");
 var ozKeg=7040
 //Find number of mugs in one keg using inputs
 var numCups=ozKeg / mugOz;
-console.log(numCups);
+//check function
+//console.log(numCups);
+//find price of mug then how much is made from a keg
+var priceKeg=prompt("How much does one keg cost your store?");
+var mugPrice=prompt("How much does one mug cost?");
+//find how much can be made from number of kegs
+var totalCups=numCups * mugPrice
+
 
