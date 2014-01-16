@@ -33,7 +33,9 @@ var profit=totalCups - pricePer;
 //find profit from given number of kegs
 var profitKeg=profit * numKeg;
 //checking math
-console.log(profitKeg);
+//console.log(profitKeg);
+//putting it all together
+console.log("There is "+(numCups)+" in "+(numKeg)+("(s). If one mug cost $"+(mugPrice)+" "+"your store will sell $"+(totalCups)))
 
 
 
