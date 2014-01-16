@@ -33,6 +33,7 @@ var profit=totalCups - pricePer;
 //find profit from given number of kegs
 var profitKeg=profit * numKeg;
 //checking math
+console.log(profitKeg);
 
 
 
