@@ -35,7 +35,7 @@ var profitKeg=profit * numKeg;
 //checking math
 //console.log(profitKeg);
 //putting it all together
-console.log("There are "+(numCups)+" cups in "+(numKeg)+("kegs(s). If one mug cost $"+(mugPrice)+" "+"your store will sell $"+(totalCups)))
+console.log("There are "+(numCups)+" cups in "+(numKeg)+("kegs(s). If one mug cost $"+(mugPrice)+" "+"your store will sell $"+(totalCups)+" "+"in beer, bringing $"+(profitKeg)+" "+"of profit! Ka-ching!")
 
 
 
