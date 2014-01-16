@@ -10,4 +10,9 @@ var mugOz= prompt("How many ounces is your mug?");
 var numKeg=prompt("How many kegs are available?");
 //check to make sure input works
 //console.log(numKeg);
+//assign how many ounces in a keg
+var ozKeg=7040
+//Find number of mugs in one keg using inputs
+var numCups=ozKeg / mugOz;
+console.log(numCups);
 
