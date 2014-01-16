@@ -3,6 +3,7 @@
 // 1-16-14
 
 //Calculate the number of gallons of paint to cover a wall (depending on number of coats)
+//My father runs a home improvement business. I have been painting houses since I was 12
 //prompts and var
 var height= prompt ("Hello, lets calculate the number of gallons of paint you will need to paint a wall. \n Please enter the hight of your wall");
 var length= prompt ("What is the length of your wall?");
