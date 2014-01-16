@@ -1,1 +1,3 @@
-alert("This is in the js file");
+//Expressions Wacky
+//Julian Rudolph
+//1-16-14
