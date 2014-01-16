@@ -20,3 +20,5 @@ var totalSqft=sqft * coats;
 var galNeed=totalSqft / gal;
 //print result in console
 console.log(galNeed);
+//add alert for galNeed
+alert ("Your wall is "+(sqft)+"sqft.  One gallon of paint should cover "+(gal)+"sqft.  If you want to paint your wall "+(coats)+" "+"coats, you will need"+" "+(galNeed)+" "+"gallons of paint!")
