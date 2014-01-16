@@ -19,6 +19,7 @@ var totalSqft=sqft * coats;
 //1 gallon of paint should cover around 350 sqft.  totalSqft / gal = number of gallons
 var galNeed=totalSqft / gal;
 //print result in console
-console.log(galNeed);
+console.log("Your wall is "+(sqft)+"sqft.  One gallon of paint should cover "+(gal)+"sqft.  If you want to paint your wall "+(coats)+" "+"coats, you will need"+" "+(galNeed)+" "+"gallons of paint!"));
 //add alert for galNeed
-alert ("Your wall is "+(sqft)+"sqft.  One gallon of paint should cover "+(gal)+"sqft.  If you want to paint your wall "+(coats)+" "+"coats, you will need"+" "+(galNeed)+" "+"gallons of paint!")
+alert ("Your wall is "+(sqft)+"sqft.  One gallon of paint should cover "+(gal)+"sqft.  If you want to paint your wall "+(coats)+" "+"coats, you will need"+" "+(galNeed)+" "+"gallons of paint!");
+//the total number of gallons needed will display in the console and as an allert
