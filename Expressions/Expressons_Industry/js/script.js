@@ -6,3 +6,9 @@
 //Then I want to figure out how much a keg brings in revenue and subtract inital price
 //of the keg.  I want to find the profit of a given number of kegs.
 //1 keg = 55 gal = 7040 oz
+
+//assigning variables
+//22 oz man mug
+var manMug= 22;
+//input number of kegs
+var numKeg=prompt("How many kegs are available?");
