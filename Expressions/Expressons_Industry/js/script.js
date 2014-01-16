@@ -12,3 +12,5 @@
 var manMug= 22;
 //input number of kegs
 var numKeg=prompt("How many kegs are available?");
+//check to make sure input works
+console.log(numKeg);
