@@ -18,3 +18,5 @@ var totalSqft=sqft * coats;
 //console.log(totalSqft)
 //1 gallon of paint should cover around 350 sqft.  totalSqft / gal = number of gallons
 var galNeed=totalSqft / gal;
+//print result in console
+console.log(galNeed);
