@@ -26,3 +26,4 @@ var totalCups=numCups * mugPrice
 //find profit of number of kegs by subtracting the price of keg
 var pricePer=numKeg * priceKeg;
 //check math
+//console.log(pricePer);
