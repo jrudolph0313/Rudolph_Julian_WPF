@@ -21,5 +21,8 @@ var priceKeg=prompt("How much does one keg cost your store?");
 var mugPrice=prompt("How much does one mug cost?");
 //find how much can be made from number of kegs
 var totalCups=numCups * mugPrice
-
-
+//checking math
+//console.log(totalCups);
+//find profit of number of kegs by subtracting the price of keg
+var pricePer=numKeg * priceKeg;
+//check math
