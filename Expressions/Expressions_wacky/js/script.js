@@ -15,4 +15,6 @@ var totalOz=numberBeer * sizeBeer;
 //find how many ounces of alcohol is consumed in given number of beer depending on percentage
 var totalConsumed=(percentAlcohol / 100) * numberBeer;
 //checking math
-console.log(totalConsumed);
+//console.log(totalConsumed);
+//putting it all together
+console.log("Your beer is"+" "+(percentAlcohol)+"% alcohol.  You have had"+" "+(numberBeer)+" beer(s). This means you have consumed"+" "+(totalConsumed)+"oz. of alcohol.");
