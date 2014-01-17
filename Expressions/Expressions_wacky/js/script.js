@@ -18,3 +18,5 @@ var totalConsumed=(percentAlcohol / 100) * numberBeer;
 //console.log(totalConsumed);
 //putting it all together
 console.log("Your beer is"+" "+(percentAlcohol)+"% alcohol.  You have had"+" "+(numberBeer)+" beer(s). This means you have consumed"+" "+(totalConsumed)+"oz. of alcohol.");
+//Add alert, just for fun.
+alert("Your beer is"+" "+(percentAlcohol)+"% alcohol.  You have had"+" "+(numberBeer)+" beer(s). This means you have consumed"+" "+(totalConsumed)+"oz. of alcohol.");
