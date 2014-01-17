@@ -11,4 +11,8 @@ var numberBeer=prompt("How many beers have you had?");
 //how many ounces of beer have been consumed?
 var totalOz=numberBeer * sizeBeer;
 //checking math
-console.log(totalOz);
+//console.log(totalOz);
+//find how many ounces of alcohol is consumed in given number of beer depending on percentage
+var totalConsumed=(percentAlcohol / 100) * numberBeer;
+//checking math
+console.log(totalConsumed);
