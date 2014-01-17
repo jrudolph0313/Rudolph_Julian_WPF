@@ -6,3 +6,5 @@
 var sizeBeer=prompt ("How many ounces of beer is in one serving?");
 //percent alcohol in beer
 var percentAlcohol=prompt("What percent of alcohol is your beer?");
+//how many beers have you had?
+var numberBeer=prompt("How many beers have you had?");
