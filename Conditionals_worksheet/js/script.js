@@ -24,9 +24,36 @@ var whatUnitInput=prompt("What unit of measure are you going to use? f or c?");
 //find what temp is from user
 var temp=prompt("What temp do you want to convert?");
 //check if it works
-console.log(temp);
-//if(whatUnitInput==f){
-
+//console.log(temp);
+//based on what unit the user inputs, assign formula to use for "f" or/else "c"
+if(whatUnitInput==f){
+//assign a var to input temp and formula
+	var tempInC= (((temp-32)*5)/9);
+//check math with console
+consle.log(tempInC);	
 //}else{
 
 //}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
