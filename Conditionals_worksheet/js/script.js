@@ -48,7 +48,7 @@ results=(whatUnitInput=="f") ? "The temperature is"+" "+(tempInC)+" "+"degrees C
 //print results to console
 console.log(results);
 
-*/
+
 
 //Check the login
 //users username and pass must match what is stored or there will be a login fail
@@ -73,8 +73,16 @@ login=(enteredNamePass == stored) ? "Welcome, your username and password match o
 console.log(login);
 
 
+*/
 
-
+//Tire Pressure 1
+//user inputs tire pressure for each tire, depending on results print proper results
+//front tires must be the same, back tires must be the same, front doesn't have t match back
+//start inputs
+var tireFront1=prompt("What is PSI of first front tire?");
+var tireFront2=prompt("What is PSI of Second front tire?");
+var tireBack1=prompt("What is PSI of first back tire?");
+var tireBack2=prompt("What is PSI of second back tire?");
 
 
 
