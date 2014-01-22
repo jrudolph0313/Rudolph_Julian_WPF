@@ -67,22 +67,10 @@ var enteredNamePass=uName+uPass;
 //console.log(trueName+truePass);
 //make var from trueNmae+truePass
 var stored=(trueName+truePass);
-//start if statements
-
-
-if(uName!=trueName)
-{
-	console.log("User not found. Try again!")
-}
-else if(uPass!=truePass)
-{
-	console.log("Password does not match our records!")
-}
-else(enteredNamePass==stored)
-{
-	console.log("Welcome, "+(uName)+" "+"you may enter!")
-}
-
+//make new var, security 
+var login;
+login=(enteredNamePass == stored) ? "Welcome, your username and password match our records. You may enter!" : "Sorry, your username and/or password do not match our records.";
+console.log(login);
 
 
 
