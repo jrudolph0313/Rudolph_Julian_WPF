@@ -2,7 +2,7 @@
 //Julian Rudolph
 //1-22-14
 
-/*
+
 
 
 // Stuff your face 1
@@ -73,7 +73,7 @@ login=(enteredNamePass == stored) ? "Welcome, your username and password match o
 console.log(login);
 
 
-*/
+
 
 //Tire Pressure 1
 //user inputs tire pressure for each tire, depending on results print proper results
