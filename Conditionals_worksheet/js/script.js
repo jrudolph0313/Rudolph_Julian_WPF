@@ -18,5 +18,15 @@ console.log(compCan);
 
 //Celsius to Fahrenheit converter
 //ask user what unit "f" or "c", ask user temp to convert, convert and disply results in different units
-var whatUnitInput=prompt("What unit of measure are you going to use? F or C?");
+var whatUnitInput=prompt("What unit of measure are you going to use? f or c?");
+//check result
+//console.log(whatUnitInput);
+//find what temp is from user
+var temp=prompt("What temp do you want to convert?");
+//check if it works
+console.log(temp);
+//if(whatUnitInput==f){
 
+//}else{
+
+//}
