@@ -2,6 +2,9 @@
 //Julian Rudolph
 //1-22-14
 
+/*
+
+
 // Stuff your face 1
 //competitor must weigh more than 250 lbs to compete
 //assign compWeight to the input of a prompt from user
@@ -41,11 +44,40 @@ if(whatUnitInput=="f"){
 //declare new var
 var results;
 //find results
-results(whatUnitInput=="f") ? "The temperature is"+" "+(tempInC)+" "+"degrees Celsius." : "The temperature is"+" "+(tempInF)+" "+"degrees Fahrenheit.";
+results=(whatUnitInput=="f") ? "The temperature is"+" "+(tempInC)+" "+"degrees Celsius." : "The temperature is"+" "+(tempInF)+" "+"degrees Fahrenheit.";
 //print results to console
 console.log(results);
 
+*/
 
+//Check the login
+//users username and pass must match what is stored or there will be a login fail
+//ask user for uname and upass
+var uName=prompt("What is your username?");
+var uPass=prompt("What is your user Password?")
+var trueName="julian";
+var truePass="julian";
+//check with console
+//console.log(uName+uPass);
+//new var with uName=uPass
+var enteredNamePass=uName+uPass;
+//check with console
+//console.log(enteredNamePass);
+//check results of trueName+truePass
+//console.log(trueName+truePass);
+//make var from trueNmae+truePass
+var stored=(trueName+truePass);
+//start if statements
+if (stored==enteredNamePass) {
+	console.log("Welocome, "+(uName)+"!")
+} else{
+	console.log("User not found. Try again")
+};
+if (uPass!=truePass) {
+	console.log("Password does not match our records.");
+} else{
+	console.log("Welcome, "+(uName)+"! You may enter!")
+};
 
 
 
