@@ -30,9 +30,11 @@ if(whatUnitInput=="f"){
 //assign a var to input temp and formula
 	var tempInC= (((temp-32)*5)/9);
 //check math with console
-	console.log(tempInC);	
+	//console.log(tempInC);	
 }else{
-	console.log("it works")
+	//if user puts "c" (not f), a different formula will be used
+	//assign var tempInF to formula
+	var tempInF=(((temp*9)/5)+32);
 }
 
 
