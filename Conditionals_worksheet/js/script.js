@@ -54,7 +54,7 @@ console.log(results);
 //users username and pass must match what is stored or there will be a login fail
 //ask user for uname and upass
 var uName=prompt("What is your username?");
-var uPass=prompt("What is your user Password?")
+var uPass=prompt("What is your user Password?");
 var trueName="julian";
 var truePass="julian";
 //check with console
@@ -68,13 +68,20 @@ var enteredNamePass=uName+uPass;
 //make var from trueNmae+truePass
 var stored=(trueName+truePass);
 //start if statements
-if(enteredNamePass==stored){
+
+
+if(uName!=trueName)
+{
+	console.log("User not found. Try again!")
+}
+else if(uPass!=truePass)
+{
+	console.log("Password does not match our records!")
+}
+else(enteredNamePass==stored)
+{
 	console.log("Welcome, "+(uName)+" "+"you may enter!")
-}elseif(){
-
-}else(){
-
-};
+}
 
 
 
