@@ -38,7 +38,12 @@ if(whatUnitInput=="f"){
 	//check math and funcitons
 	//console.log(tempInF);
 }
-
+//declare new var
+var result;
+//find results
+results(whatUnitInput=="f") ? "The temperature is"+" "+(tempInC)+" "+"degrees Celsius." : "The temperature is"+" "+(tempInF)+" "+"degrees Fahrenheit.";
+//print results to console
+console.log(results);
 
 
 
