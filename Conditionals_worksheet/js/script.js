@@ -12,3 +12,5 @@ var compWeight=prompt("Please input the competitors weight in pounds.");
 //print output based on user input
 //assign var as output of condition
 var compCan;
+compCan=(compWeight>=250) ? "The competitor qualifies for the heavyweight Division." : "The competitor needs to gain some weight!";
+
