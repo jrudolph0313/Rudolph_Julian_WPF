@@ -15,3 +15,8 @@ var compCan;
 compCan=(compWeight>=250) ? "The competitor qualifies for the heavyweight Division." : "The competitor needs to gain some weight!";
 //print result to console
 console.log(compCan);
+
+//Celsius to Fahrenheit converter
+//ask user what unit "f" or "c", ask user temp to convert, convert and disply results in different units
+var whatUnitInput=prompt("What unit of measure are you going to use? F or C?");
+
