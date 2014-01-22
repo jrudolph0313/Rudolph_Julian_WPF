@@ -83,7 +83,10 @@ var tireFront1=prompt("What is PSI of first front tire?");
 var tireFront2=prompt("What is PSI of Second front tire?");
 var tireBack1=prompt("What is PSI of first back tire?");
 var tireBack2=prompt("What is PSI of second back tire?");
-
+//turn input into array
+var myTires=new Array(tireFront1, tireFront2, tireBack1, tireBack2);
+//check by console.log showing results from index numbers
+console.log(myTires[0], myTires[1], myTires[2], myTires[3]);
 
 
 
