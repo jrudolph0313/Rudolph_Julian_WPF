@@ -26,14 +26,14 @@ var temp=prompt("What temp do you want to convert?");
 //check if it works
 //console.log(temp);
 //based on what unit the user inputs, assign formula to use for "f" or/else "c"
-if(whatUnitInput==f){
+if(whatUnitInput=="f"){
 //assign a var to input temp and formula
 	var tempInC= (((temp-32)*5)/9);
 //check math with console
-consle.log(tempInC);	
-//}else{
-
-//}
+	console.log(tempInC);	
+}else{
+	console.log("it works")
+}
 
 
 
