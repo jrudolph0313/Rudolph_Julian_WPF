@@ -9,3 +9,6 @@ var compWeight=prompt("Please input the competitors weight in pounds.");
 //check output 
 //comment out, it works
 //console.log(compWeight);
+//print output based on user input
+//assign var as output of condition
+var compCan;
