@@ -86,7 +86,12 @@ var tireBack2=prompt("What is PSI of second back tire?");
 //turn input into array
 var myTires=new Array(tireFront1, tireFront2, tireBack1, tireBack2);
 //check by console.log showing results from index numbers
-console.log(myTires[0], myTires[1], myTires[2], myTires[3]);
+//console.log(myTires[0], myTires[1], myTires[2], myTires[3]);
+//declare var and assign it to expression using array index numbers
+var onSpec;
+onSpec=(myTires[0]==myTires[1] && myTires[2]==myTires[3]) ? "The Tires pass Spec!" : "Get your tires checked!";
+//print to console
+console.log(onSpec);
 
 
 
