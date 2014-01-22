@@ -6,3 +6,5 @@
 //competitor must weigh more than 250 lbs to compete
 //assign compWeight to the input of a prompt from user
 var compWeight=prompt("Please input the competitors weight in pounds.");
+//check output 
+console.log(compWeight);
