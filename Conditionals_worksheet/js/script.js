@@ -68,15 +68,12 @@ var enteredNamePass=uName+uPass;
 //make var from trueNmae+truePass
 var stored=(trueName+truePass);
 //start if statements
-if (stored==enteredNamePass) {
-	console.log("Welocome, "+(uName)+"!")
-} else{
-	console.log("User not found. Try again")
-};
-if (uPass!=truePass) {
-	console.log("Password does not match our records.");
-} else{
-	console.log("Welcome, "+(uName)+"! You may enter!")
+if(enteredNamePass==stored){
+	console.log("Welcome, "+(uName)+" "+"you may enter!")
+}elseif(){
+
+}else(){
+
 };
 
 
