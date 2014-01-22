@@ -39,7 +39,7 @@ if(whatUnitInput=="f"){
 	//console.log(tempInF);
 }
 //declare new var
-var result;
+var results;
 //find results
 results(whatUnitInput=="f") ? "The temperature is"+" "+(tempInC)+" "+"degrees Celsius." : "The temperature is"+" "+(tempInF)+" "+"degrees Fahrenheit.";
 //print results to console
