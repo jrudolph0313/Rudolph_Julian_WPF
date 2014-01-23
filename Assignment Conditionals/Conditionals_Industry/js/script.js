@@ -1,1 +1,3 @@
-alert("This is in the js file");
+//Julian Rudolph
+//Conditionals Assignment Industry
+//1-23-14
