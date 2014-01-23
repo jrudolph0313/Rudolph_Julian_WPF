@@ -18,9 +18,36 @@ var hoursOpen=[13, 15];
 //assign percentages of sales accounted for days in array
 var percentDay=[.05, .1, .35]
 //check with console
-console.log(percentDay[2]);
+//console.log(percentDay[2]);
 //lets do math
-/*if (day=="Mon", "Tues", "Wed", "Thurs"){
+var totalForDay;
+ 
+ if (day=="Mon", "Tues", "Wed", "Thurs"){
 	//console.log(day);
-
+	totalForDay=weekAverage * percentDay[0];
+} else if(day=="Sat", "Sun"){
+	totalForDay=weekAverage * percentDay[2]
+} else {
+	totalForDay=weekAverage * percentDay[1]
 }
+
+//check with console
+console.log(totalForDay);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
