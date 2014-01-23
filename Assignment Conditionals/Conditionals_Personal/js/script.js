@@ -13,3 +13,8 @@ var pricePerOld=prompt("How much was one LTC worth in $usd when you should have 
 var amountLtc=amountInvested / pricePerOld;
 //Check math
 //console.log(amountLtc);
+//how much is one ltc now from btc-e.com
+var currentPricePer=prompt("What is the current price in $usd of one LTC?");
+var currentTotalAmount=currentPricePer*amountLtc;
+//check math
+console.log(currentTotalAmount);
