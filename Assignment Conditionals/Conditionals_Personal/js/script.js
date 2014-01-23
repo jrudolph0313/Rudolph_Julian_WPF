@@ -11,10 +11,16 @@ var amountInvested=prompt("How much would you have invested in LTC had you not b
 //console.log(amountInvested);
 var pricePerOld=prompt("How much was one LTC worth in $usd when you should have invested?");
 var amountLtc=amountInvested / pricePerOld;
+var valueOld=pricePerOld * amountLtc;
 //Check math
 //console.log(amountLtc);
 //how much is one ltc now from btc-e.com
 var currentPricePer=prompt("What is the current price in $usd of one LTC?");
 var currentTotalAmount=currentPricePer*amountLtc;
+var profit=valueOld - currentTotalAmount;
 //check math
 console.log(currentTotalAmount);
+//if value has gone up disply one string, if value has gone down print a different string.
+var result;
+result=(valueOld<currentTotalAmount) ? "Congrats, you have made $"+(profit)+" "+"profit!" : "Sorry, you have lost $" +(profit)+" "+"!";
+console.log(result);
