@@ -15,7 +15,12 @@ var day=prompt("What day is it? Mon, Tues, Wed, Thrus, Fri, Sat, Sun");
 var hoursOpen=[13, 15];
 //check with console
 //console.log(hoursOpen[1]);
+//assign percentages of sales accounted for days in array
+var percentDay=[.05, .1, .35]
+//check with console
+console.log(percentDay[2]);
 //lets do math
-if (day=="Mon"){
-	console.log(day);
+/*if (day=="Mon", "Tues", "Wed", "Thurs"){
+	//console.log(day);
+
 }
