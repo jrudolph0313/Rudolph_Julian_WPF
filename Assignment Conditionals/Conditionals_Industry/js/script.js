@@ -14,4 +14,8 @@ var day=prompt("What day is it? Mon, Tues, Wed, Thrus, Fri, Sat, Sun");
 //assign hours open to an array
 var hoursOpen=[13, 15];
 //check with console
-console.log(hoursOpen[1]);
+//console.log(hoursOpen[1]);
+//lets do math
+if (day=="Mon"){
+	console.log(day);
+}
