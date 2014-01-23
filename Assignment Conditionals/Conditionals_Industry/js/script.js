@@ -7,7 +7,7 @@
 var weekAverage=prompt("How much does your bar sell on an average week in $USD?");
 //Check with console
 //console.log(weekAverage);
-//The numbers are made up, depending on which day will determine how much can be attributed to the day the user chooses.  since there are only 3 different percentages in a week, i will make these an array
-var percentDaily=[.05, .1, .35];
+//lets find out the day
+var day=prompt("What day is it? Mon, Tues, Wed, Thrus, Fri, Sat, Sun");
 //check with console
-//console.log(percentDaily[1]);
+console.log(day);
