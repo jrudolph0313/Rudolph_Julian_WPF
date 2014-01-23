@@ -7,9 +7,11 @@
 //result will appear.  If user lost money a different result will appear.
 //assign vars to prompts
 var amountInvested=prompt("How much would you have invested in LTC had you not believed the negitive media propaganda?");
-var check1;
-check1=(amountInvested==null || amountInvested=="") ? "The amount you would have invested is required!" : check1=true;
-console.log(check1);
+	if(amountInvested==""){
+		alert("Please input the amount you would have invested!")
+		prompt("How much would you have invested in LTC had you not believed the negitive media propaganda?")
+	}
+
 //make sure it works
 //console.log(amountInvested);
 var pricePerOld=prompt("How much was one LTC worth in $usd when you should have invested?");
