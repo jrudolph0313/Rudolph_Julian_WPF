@@ -11,12 +11,7 @@ var weekAverage=prompt("How much does your bar sell on an average week in $USD?"
 var day=prompt("What day is it? Mon, Tues, Wed, Thrus, Fri, Sat, Sun");
 //check with console
 //console.log(day);
-//if/else for hours assigned to a var
-var hoursOpen;
-	if (day="Mon", "Tues", "Wed", "Sun"){
-		hoursOpen=13;
-	} else{
-		hoursOpen=15;
-	}
+//assign hours open to an array
+var hoursOpen=[13, 15];
 //check with console
-console.log(hoursOpen);
+console.log(hoursOpen[1]);
