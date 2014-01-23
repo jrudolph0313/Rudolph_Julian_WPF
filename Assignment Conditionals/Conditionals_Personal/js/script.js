@@ -15,12 +15,20 @@ var amountInvested=prompt("How much would you have invested in LTC had you not b
 //make sure it works
 //console.log(amountInvested);
 var pricePerOld=prompt("How much was one LTC worth in $usd when you should have invested?");
+	if(pricePerOld==""){
+		alert("The old value in $usd of one LTC is required")
+		prompt("How much was one LTC worth in $usd when you should have invested?")
+	}
 var amountLtc=amountInvested / pricePerOld;
 var valueOld=pricePerOld * amountLtc;
 //Check math
 //console.log(amountLtc);
 //how much is one ltc now from btc-e.com
-var currentPricePer=prompt("What is the current price in $usd of one LTC?");
+var currentPricePer=prompt("What is the current price, in $usd, of one LTC?");
+	if(currentPricePer==""){
+		alert("Current Price in $usd is required!")
+		prompt("What is the current price, in $usd, of one LTC?")
+	}
 var currentTotalAmount=currentPricePer*amountLtc;
 var profit=currentTotalAmount - valueOld;
 //check math
