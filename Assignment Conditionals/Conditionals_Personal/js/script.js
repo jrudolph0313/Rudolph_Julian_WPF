@@ -8,4 +8,8 @@
 //assign vars to prompts
 var amountInvested=prompt("How much would you have invested in LTC had you not believed the negitive media propaganda?");
 //make sure it works
-console.log(amountInvested);
+//console.log(amountInvested);
+var pricePerOld=prompt("How much was one LTC worth in $usd when you should have invested?");
+var amountLtc=amountInvested / pricePerOld;
+//Check math
+//console.log(amountLtc);
