@@ -17,7 +17,7 @@ var valueOld=pricePerOld * amountLtc;
 //how much is one ltc now from btc-e.com
 var currentPricePer=prompt("What is the current price in $usd of one LTC?");
 var currentTotalAmount=currentPricePer*amountLtc;
-var profit=valueOld - currentTotalAmount;
+var profit=currentTotalAmount - valueOld;
 //check math
 console.log(currentTotalAmount);
 //if value has gone up disply one string, if value has gone down print a different string.
