@@ -30,9 +30,12 @@ if(day<5){
 	priceOnDay=weekAverage*0.35;
 }
 //checked math with console
-//console.log(priceOnDay);
+console.log(priceOnDay);
 
 //Plugging in choice of days
+
+
+
 var perHour;
 
 if(day<=5){
@@ -41,8 +44,9 @@ if(day<=5){
 	perHour=priceOnDay/15;
 }
 
+
 //check output with console
-console.log(perHour);
+//console.log(perHour);
 
 
 
