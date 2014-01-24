@@ -15,4 +15,8 @@ var sizeFriend=prompt("Would you consider your friend to be larger than yourself
 //console.log(sizeFriend);
 var slope=prompt("what degree is the slope of the hill?")
 //check
-console.log(slope);
+//console.log(slope);
+//snow/ice covered vs dry
+var condSlope=prompt("Is the slope covered is snow/ice? yes or no?");
+//check
+console.log(condSlope);
