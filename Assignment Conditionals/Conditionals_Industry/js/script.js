@@ -52,9 +52,10 @@ if(day<=5){
 	perHour=priceOnDay/15;
 }
 
-
 //check output with console
 //console.log(perHour);
+//print final result
+console.log("Today, your bar will sell $"+(perHour)+" "+"per Hour.")
 
 
 
