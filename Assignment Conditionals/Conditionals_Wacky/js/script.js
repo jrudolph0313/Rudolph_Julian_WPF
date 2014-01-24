@@ -26,7 +26,12 @@ var slope=prompt("what degree is the slope of the hill?")
 //check
 //console.log(slope);
 //snow/ice covered vs dry
-var condSlope=prompt("Is the slope covered is snow/ice? yes or no?");
+var condSlope=prompt("Is the slope covered is snow, ice, or dry?");
+	if(condSlope!="dry"){
+		console.log("Yeah buddy!, If you have gotten this far without an alert showing up it means that a" +" "+(condSlope)+" "+"covered hill seems like a good idea! Go for it!");
+		}else{
+			console.log("Nope, a "+(condSlope)+" "+"hill is never a safe place!")
+		}
 //check
 //console.log(condSlope);
 
