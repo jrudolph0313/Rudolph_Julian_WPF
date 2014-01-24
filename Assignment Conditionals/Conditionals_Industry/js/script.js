@@ -13,6 +13,10 @@ var weekAverage=prompt("How much does your bar sell on an average week in $USD?"
 //console.log(weekAverage);
 //lets find out the day
 var day=prompt("What day is it? 1-Mon, 2-Tues, 3-Wed, 4-Thrus, 5-Fri, 6-Sat, 7-Sun. Please use numbers, not name of day!");
+	if(day==""){
+		alert("The day is required! Please use the number system I have set up!")
+		prompt("What day is it? 1-Mon, 2-Tues, 3-Wed, 4-Thrus, 5-Fri, 6-Sat, 7-Sun. Please use numbers, not name of day!")
+	}
 //check with console
 //console.log(day);
 
