@@ -11,12 +11,24 @@
 alert("Today we are going to determine if it is a good idea to ride a friend down a hill.");
 //ask user if their friend
 var sizeFriend=prompt("Would you consider your friend to be larger than yourself? yes or no?");
+//lets add if else
+	if(sizeFriend!="yes"){
+		console.log("No, this already isn't a very wise idea. Find a new friend!");
+	}else{
+		sizeFriend=sizeFriend;
+	}
 //check with console
 //console.log(sizeFriend);
 var slope=prompt("what degree is the slope of the hill?")
+	if(slope<45){
+		console.log("Nope, less than 45 is not safe. Find a new hill!")
+	}
 //check
 //console.log(slope);
 //snow/ice covered vs dry
 var condSlope=prompt("Is the slope covered is snow/ice? yes or no?");
 //check
-console.log(condSlope);
+//console.log(condSlope);
+
+
+
