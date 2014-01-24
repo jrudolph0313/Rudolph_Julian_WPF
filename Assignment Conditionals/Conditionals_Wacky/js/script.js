@@ -7,6 +7,10 @@
 //depending on users friends size in relation to the users, angle of slope, and what kind of cover
 //is over the hill (snow, ice, dry)
 
+
+
+//Yes, I have ridden, and been ridden down a snow covered hill...
+
 //alert user to what we are going to decide
 alert("Today we are going to determine if it is a good idea to ride a friend down a hill.");
 //ask user if their friend
