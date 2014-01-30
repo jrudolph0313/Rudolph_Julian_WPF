@@ -2,6 +2,8 @@
 //Funcitons Worksheet
 // 1-30-14
 
+/*
+
 //circumference
 
 var radius=prompt("What is the raidus of your circle?")
@@ -14,3 +16,6 @@ function circumference(d, pi){
 	circum=d*pi
 	console.log(circum);
 }
+*/
+
+//Stung!
