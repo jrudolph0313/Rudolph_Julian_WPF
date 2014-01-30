@@ -23,9 +23,11 @@ function circumference(d, pi){
 
 var vicWeight=prompt("How many pounds does this animal weight?")
 
+stingsKill(vicWeight)
 
-function stingsKill(){
-	
+function stingsKill(w){
+	deathStings=w*8.666
+	console.log(deathStings);
 }
 
 
