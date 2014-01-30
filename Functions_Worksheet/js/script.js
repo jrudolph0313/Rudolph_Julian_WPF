@@ -27,7 +27,7 @@ stingsKill(vicWeight)
 
 function stingsKill(w){
 	deathStings=w*8.666
-	console.log(deathStings);
+	console.log("It takes"+" "+deathStings+" bee stings to kill this animal!");
 }
 
 
