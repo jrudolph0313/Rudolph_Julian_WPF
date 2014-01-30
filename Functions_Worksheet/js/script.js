@@ -2,7 +2,7 @@
 //Funcitons Worksheet
 // 1-30-14
 
-/*
+
 
 //circumference
 
@@ -17,7 +17,7 @@ function circumference(d, pi){
 	console.log("The Circumference of the cirlcle is"+" "+circum+" inches!");
 }
 
-*/
+
 //Stung!
 
 
