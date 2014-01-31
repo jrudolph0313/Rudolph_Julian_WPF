@@ -18,4 +18,15 @@ function bankKeep(USD, Law){
 	return total;
 }
 
+//console.log(total);
+//how much can a bank loan out based on the amount user entered
+
+bankLoan(total, USD)
+
+function bankLoan(total, USD){
+	bankloan=total-USD
+	return bankLoan;
+}
+
 console.log(total);
+console.log(bankLoan);
