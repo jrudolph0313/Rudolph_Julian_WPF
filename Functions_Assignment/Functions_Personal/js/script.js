@@ -4,4 +4,7 @@
 
 //How does fractional reserve banking work
 
-prompt("Lets see a good example of how Fractional Reserve Banking works.");
+alert("Lets see a good example of how Fractional Reserve Banking works.");
+
+prompt("Input a number in $USD.")
+//check with console
