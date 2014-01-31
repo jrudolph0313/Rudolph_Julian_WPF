@@ -21,10 +21,10 @@ function bankKeep(USD, Law){
 //console.log(total);
 //how much can a bank loan out based on the amount user entered
 
-bankLoan(total, USD)
+bankLoan(USD, total)
 
-function bankLoan(total, USD){
-	bankloan=total-USD
+function bankLoan(USD, total){
+	bankLoan=USD-total
 	return bankLoan;
 }
 
