@@ -6,5 +6,6 @@
 
 alert("Lets see a good example of how Fractional Reserve Banking works.");
 
-prompt("Input a number in $USD.")
+var USD=prompt("Input a number in $USD.")
 //check with console
+console.log(USD);
