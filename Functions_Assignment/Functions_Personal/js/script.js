@@ -10,9 +10,12 @@ var USD=prompt("Input a deposit amount in $USD.")
 //check with console
 //console.log(USD);
 
-bankKeep(USD, .10)
+bankKeep(USD, .10)//in fractional reserve banking, the banks only have to keep 10% of any deposit.
 
 function bankKeep(USD, Law){
 	total=USD*Law
-	console.log(total)
+	//console.log(total)
+	return total;
 }
+
+console.log(total);
