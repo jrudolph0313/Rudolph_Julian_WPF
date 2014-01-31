@@ -27,6 +27,22 @@ function bankLoan(USD, total){
 	bankLoan=USD-total
 	return bankLoan;
 }
+//checking results
+//console.log(total);
+//console.log(bankLoan);
 
-console.log(total);
-console.log(bankLoan);
+console.log("If you deposited $"+USD+" "+"in your bank they have to keep only 10% of that.  This means that your bank is allowed to loan $"+bankLoan+" "+"to anyone they want. What happens when that customer deposits that amount into their own account?  Lets find out!")
+console.log(bankLoan, bankLoan * .9);
+
+
+
+
+
+
+
+
+
+
+
+
+
