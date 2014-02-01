@@ -32,8 +32,14 @@ function bankLoan(USD, total){
 //console.log(bankLoan);
 
 console.log("If you deposited $"+USD+" "+"in your bank they have to keep only 10% of that.  This means that your bank is allowed to loan $"+bankLoan+" "+"to anyone they want. What happens when that customer deposits that amount into their own account?  Lets find out!")
-console.log(bankLoan, bankLoan * .9);
 
+//var peopleDeposit=bankLoan*.9;
+//console.log(peopleDeposit);
+
+while (USD>=1){
+	USD=USD*.9
+	console.log(USD)
+}
 
 
 
