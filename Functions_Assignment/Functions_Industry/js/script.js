@@ -12,6 +12,7 @@ var bodyWater=prompt("Today we are going to estimate your blood alcohol content.
 		bodyWater=.49;
 	}else{
 		alert("You must be either male or female, robots do not count...Sorry!")
+		prompt=("Please enter male or female.")
 	}
 
 //check with console
@@ -30,8 +31,16 @@ var wt=weight/2.2//to find weight in kilos
 
 var drinkingPeriod=prompt("How long, today in hours, have you been drinking?");
 //check with console
-console.log(drinkingPeriod);
+//console.log(drinkingPeriod);
 
+EBAC (drinks, bodyWater, wt, drinkingPeriod);
+
+function EBAC(drinks, bodyWater, wt, drinkingPeriod){
+	estimatedBAC=(.806*drinks*1.2)/(bodyWater*wt)-(.017*drinkingPeriod)
+	return estimatedBAC;
+}
+
+console.log(estimatedBAC);
 
 
 
