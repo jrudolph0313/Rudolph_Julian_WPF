@@ -5,11 +5,14 @@
 //estimating blood alcohol content
 //the code is all mine, the formula i found online.  I am not going to get into the specifics, just basics.
 
-var bodyWater=prompt("Hello, lets estimate your blood alcohol content!  Are you a male or female?")
-	if("male"){
-		bodyWater=.58
+var bodyWater=prompt("Today we are going to estimate your blood alcohol content.  Are you male or female?")
+	if(bodyWater=="male"){
+		bodyWater=.58;
+	}else if(bodyWater=="female"){
+		bodyWater=.49;
 	}else{
-		bodyWater=.49
+		alert("You must be either male or female, robots do not count...Sorry!")
 	}
-//check with console
-console.log(bodyWater);
+
+	//check with console
+	console.log(bodyWater);
