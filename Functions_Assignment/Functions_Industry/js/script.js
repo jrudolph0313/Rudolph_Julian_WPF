@@ -15,4 +15,8 @@ var bodyWater=prompt("Today we are going to estimate your blood alcohol content.
 	}
 
 	//check with console
-	console.log(bodyWater);
+	//console.log(bodyWater);
+
+	var drinks=prompt("How many drinks have you had?")
+	//check with console
+	console.log(drinks);
