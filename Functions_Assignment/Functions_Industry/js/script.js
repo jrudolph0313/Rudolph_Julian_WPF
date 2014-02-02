@@ -26,7 +26,11 @@ var weight=prompt("How much do you weight in pounds?")
 
 var wt=weight/2.2//to find weight in kilos
 //check with console
-console.log(wt); 
+//console.log(wt); 
+
+var drinkingPeriod=prompt("How long, today in hours, have you been drinking?");
+//check with console
+console.log(drinkingPeriod);
 
 
 
