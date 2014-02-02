@@ -14,12 +14,32 @@ var bodyWater=prompt("Today we are going to estimate your blood alcohol content.
 		alert("You must be either male or female, robots do not count...Sorry!")
 	}
 
-	//check with console
-	//console.log(bodyWater);
+//check with console
+//console.log(bodyWater);
 
-	var drinks=prompt("How many drinks have you had?")
-	//check with console
-	//console.log(drinks);
-	var weight=prompt("How much do you weight in pounds?")
-	//check with console
-	console.log(weight);
+var drinks=prompt("How many drinks have you had?")
+//check with console
+//console.log(drinks);
+var weight=prompt("How much do you weight in pounds?")
+//check with console
+//console.log(weight);
+
+var wt=weight/2.2//to find weight in kilos
+//check with console
+console.log(wt); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
